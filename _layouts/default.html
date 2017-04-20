@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		{% include head.html %}
 		<meta charset="utf-8">
 		<title>{{ page.title }}</title>
 		<link href="{{ "/css/main.css" | prepend: site.baseurl }}?{{site.time | date: '%s%N'}}" type="text/css" rel="stylesheet">
